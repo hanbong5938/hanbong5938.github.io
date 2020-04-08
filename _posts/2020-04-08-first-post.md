@@ -5,7 +5,7 @@ categories: jekyll update
 ---
 https://github.com/hanbong5938/hanbong5938.github.io/files/4448477/Fc.Bayern.pdf
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+https://github.com/hanbong5938/hanbong5938.github.io/files/4448477/Fc.Bayern.pdf
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
