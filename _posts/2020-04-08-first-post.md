@@ -5,9 +5,9 @@ categories: test
 ---
 https://github.com/hanbong5938/hanbong5938.github.io/files/4448477/Fc.Bayern.pdf
 수정
-    <iframe src="https://docs.google.com/gview?url=https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
 
 
+[]:<iframe src="https://docs.google.com/gview?url=https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
