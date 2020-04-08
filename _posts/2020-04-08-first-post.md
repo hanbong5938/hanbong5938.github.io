@@ -12,4 +12,4 @@ This is an R Markdown document.
 
 ## External PDF file is included below
 
-\includepdf[pages={-}]{https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf}
+\includepdf[pages={2-5}]{https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf}
