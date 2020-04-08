@@ -5,7 +5,8 @@ categories: test
 ---
 https://github.com/hanbong5938/hanbong5938.github.io/files/4448477/Fc.Bayern.pdf
 
-https://github.com/hanbong5938/hanbong5938.github.io/files/4448477/Fc.Bayern.pdf
+    <iframe src="https://docs.google.com/gview?url= YOUR LINK HERE &embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
