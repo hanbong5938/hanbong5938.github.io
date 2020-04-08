@@ -20,7 +20,7 @@ title                    : "Han"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "BaeHanbong"
-description              : "깃허브 ."
+description              : "포트폴리오 ."
 url                      : "https://github.com/hanbong5938/github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "BaeHanbong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "."
+  bio              : "테스트."
   location         : "Incheon, Repulbic of Korea"
   email            : "hanbong5938@gmail.com"
   links:
