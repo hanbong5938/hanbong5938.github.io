@@ -13,4 +13,4 @@ This is an R Markdown document.
 ## External PDF file is included below
 
 \includepdf[pages={2-5}]{https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf}
-{% include 파일명.html id="유튜브동영상url" %}  
+{% include sample.html id="https://github.com/hanbong5938/fcbayern/blob/master/Fc%20Bayern.pdf" %}  
