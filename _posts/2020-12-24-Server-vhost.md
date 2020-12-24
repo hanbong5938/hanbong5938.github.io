@@ -1,4 +1,4 @@
-#인증서 발급 - 도커 사용
+# 인증서 발급 - 도커 사용
 
 ```
 docker run -it --rm --name certbot \
@@ -127,7 +127,7 @@ Listen 80
 service apache2 restart
 ```
 
-#spring boot 위한 p12 추가
+# spring boot 위한 p12 추가
 
 OOOO에는 server.ssl.key-alias 와 같은 이름으로 설정
 패스워드입력창이 이후 나오면 spring properties와 맞춰준다.
@@ -140,7 +140,7 @@ openssl pkcs12 -export -in fullchain.pem  -inkey privkey.pem  -out keystore.p12 
 
 
 
-#인증서 3개월 후 재발급
+# 인증서 3개월 후 재발급
 ```
 docker run -it --rm --name certbot \
   -v '/etc/letsencrypt:/etc/letsencrypt' \
