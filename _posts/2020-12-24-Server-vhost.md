@@ -147,3 +147,12 @@ docker run -it --rm --name certbot \
   -v '/var/lib/letsencrypt:/var/lib/letsencrypt' \
   certbot/certbot renew --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
 ```
+crontab 사용하여 자동화 
+```
+crontab -e
+```
+이후 에디터 선택 현재날짜 기준 3개월
+
+```
+0 0 23 MAR,JUN,SEP,DEC  * sh /home/ubuntu/crontab/renew.sh >> /home/ubuntu/crontab/res.log
+```
