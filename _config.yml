@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yun Blog
-subtitle: 기술 블로그
-author: Yun
-language:
-timezone:
+title: Han Blog
+subtitle: 개발 블로그
+author: Han
+language: ko
+timezone: KST
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cheese10yun.github.io/
+url: https://hanbong5938.github.io
 root: /
 permalink: :title/
 permalink_defaults:
@@ -19,10 +19,10 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Yun Blog | 기술 블로그
-email: cheese10yun@gmail.com
-description: "Yun Blog | 기술 블로그"
-keyword: "Node NodeJs Spring Spring Boot Javascript"
+SEOTitle: Han Blog | 개발 블로그
+email: hanbong5938@gmail.com
+description: "Han Blog | 개발 블로그"
+keyword: "Spring Spring Boot Javascript Vue Ubuntu"
 header-img: img/header_img/tag-bg.png
 signature: true #show signature
 signature-img: img/signature/BeanTechSign-white.png
@@ -32,7 +32,7 @@ signature-img: img/signature/BeanTechSign-white.png
 RSS: true
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
-github_username: cheese10yun
+github_username: hanbong5938
 # twitter_username:   Demonbane_x
 #facebook_username:  YenYuHsuan
 #linkedin_username:  yu-hsuan-yen
@@ -60,7 +60,7 @@ ga_domain: https://cheese10yun.github.io/
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "초고수가 되자"
+sidebar-about-description: ""
 sidebar-avatar: img/yun.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
     #- featured-tags
@@ -203,11 +203,11 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repository: git@github.com:cheese10yun/cheese10yun.github.io.git
+    repository: git@github.com:hanbong5938/hanbong5938.github.io.git
     branch: master
 
 utterances:
     enable: true
-    repo: cheese10yun/blog-comment
+    repo: hanbong5938/hanbong5938.github.io
     issue_term: title
     theme: github-light
