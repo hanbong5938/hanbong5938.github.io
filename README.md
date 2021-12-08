@@ -4,6 +4,5 @@
 
 You can also contact me through
 
-- [Instagram](https://www.instagram.com/_gee_y/)
 - [LinkedIn](./README.md)
 - [Facebook](./README.md)
