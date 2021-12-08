@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: 
+authoricon: glass
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
