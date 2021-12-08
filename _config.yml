@@ -5,7 +5,7 @@
 
 # Site
 title: Han's DevLog
-subtitle: 
+subtitle:
 description:
 author: Hanbong Bae
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://hanbong5938.github.io
-baseurl : 
+baseurl :
 permalink: pretty
 
 # Pagination
@@ -90,7 +90,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: glass
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -236,7 +236,7 @@ social_icons:
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
 avatar: /assets/images/51283645.jpg
- 
+
 
 # Table Of Contents in the Sidebar
 toc:
@@ -395,11 +395,11 @@ wildfire:
   # version - It's recommended to use the following versions.
   loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
   useDev: true
-  version: 0.5.6 
+  version: 0.5.6
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: 
+    apiKey:
     authDomain:
     databaseURL:
     projectId:
@@ -410,8 +410,8 @@ wildfire:
   # other configs
   theme: light # or dark
   locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
-# Any question? 
+  defaultAvatarURL:
+# Any question?
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
 
