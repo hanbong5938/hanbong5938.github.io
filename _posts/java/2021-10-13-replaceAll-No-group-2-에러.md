@@ -1,5 +1,4 @@
-# replaceAll 메서드에 $ 사용시 발생한다.
-
+replaceAll 메서드에 $ 사용시 발생한다.
 
 에러는 다음과 같다.
 ```java
