@@ -1,3 +1,9 @@
+---
+layout : post
+title : "String vs StringBuilder"
+category : Java
+---
+
 StringBuilder는 jdk 1.5에서 추가된 클래스이다.
 
 StringBuffer와 동작하는 방식은 같으나 syncronized의 차이를 가진다.

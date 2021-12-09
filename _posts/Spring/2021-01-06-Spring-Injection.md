@@ -1,3 +1,9 @@
+---
+layout : post
+title : "Injection 방법"
+category : Spring
+---
+
 필드주입 사용
 
 ```java

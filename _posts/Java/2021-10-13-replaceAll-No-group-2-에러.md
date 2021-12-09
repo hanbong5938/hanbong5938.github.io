@@ -1,7 +1,13 @@
+---
+layout : post
+title : "replaceAll no Group 2 에러"
+category : Java
+---
+
 replaceAll 메서드에 $ 사용시 발생한다.
 
 에러는 다음과 같다.
-```java
+```log
 Exception in thread "main" java.lang.IndexOutOfBoundsException: No group 2
 	at java.util.regex.Matcher.start(Matcher.java:374)
 	at java.util.regex.Matcher.appendReplacement(Matcher.java:831)
