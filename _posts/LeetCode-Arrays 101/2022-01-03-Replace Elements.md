@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Replace Elements with Greatest Element on Right Side"
-category : LeetCode
+category : LeetCode[Arrays 101]
 ---
 
 // Source : https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/

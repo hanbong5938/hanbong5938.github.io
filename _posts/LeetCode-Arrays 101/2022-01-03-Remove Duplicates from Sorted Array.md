@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Remove Duplicates from Sorted Array"
-category : LeetCode
+category : LeetCode[Arrays 101]
 ---
 
 * Source : https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/
