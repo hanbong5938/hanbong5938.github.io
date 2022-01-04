@@ -165,3 +165,7 @@ POST http://localhost:8081/actuator/refresh
 ```
 
 다시 test 를 실행시키면 값이 변경된다.
+
+- [spring-boot-cloud-yml](https://github.com/hanbong5938/spring-boot-cloud-yml)
+- [spring-boot-cloud-config-server](https://github.com/hanbong5938/spring-boot-cloud-config-server)
+- [spring-boot-cloud-client-server](https://github.com/hanbong5938/spring-boot-cloud-client-server)
