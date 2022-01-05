@@ -1,5 +1,6 @@
 ---
-layout : post title : "Third Maximum Number"
+layout : post 
+title : "Third Maximum Number"
 category : LeetCode[Arrays 101]
 ---
 

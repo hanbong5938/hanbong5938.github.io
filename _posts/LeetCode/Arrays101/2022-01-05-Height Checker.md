@@ -1,5 +1,6 @@
 ---
-layout : post title : "Height Checker"
+layout : post 
+title : "Height Checker"
 category : LeetCode[Arrays 101]
 ---
 
