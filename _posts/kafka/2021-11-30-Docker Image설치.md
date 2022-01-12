@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Docker Image이용한 설치"
-category : Java
+category : Kafka
 ---
 
 ### **Kafka-Docker 레파지토리 클론**
