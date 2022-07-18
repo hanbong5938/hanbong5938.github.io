@@ -150,7 +150,7 @@ show variables like '%ft_min%';
 위의 쿼리를 이용하여 MATCH AGAINST 사용시 최소 글자 검색 수를 조회할 수 있다.
 `ft_min_word_len`의 숫자보다 작은 경우 무시되게 된다.
 
-my.cnf 이나 my.ini 파일에서 `ft_min_word_len=4` 를 원하는 숫자로 수정 해준 뒤 mysql 재시작 해주면 적용된다.
+my.cnf 이나 my.ini 파일에서 `ft_min_word_len=4`(innodb 인경우 `innodb_ft_min_token_size=2`) 를 원하는 숫자로 수정 해준 뒤 mysql 재시작 해주면 적용된다.
 
 만약 이미 인덱스가 생성되어 있는 경우, 아래의 쿼리를 사용하여 index 재생성이 필요하다
 ```mysql
@@ -191,6 +191,17 @@ where MATCH(c.name) AGAINST('이름');
   }
 }
 ```
+
+## 자연어 검색
+
+## Boolean 모드 검색
+```mysql
+select *
+from company c
+join employer e on c.id = e.company_id
+where MATCH(c.name) AGAINST('이름1 이름2' IN BOOLEAN MODE);
+```
+
 
 ### OR 데이터 조회
 ```mysql
