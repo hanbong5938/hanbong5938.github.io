@@ -46,7 +46,10 @@ server-id=2
 위에서처럼 log-bin=... 식으로 뒤에 덧붙이면 바이너리 파일의 경로와 파일명의 접두어를 입맛에 맞게 정할 수 있다. log-bin=master 이라 설정하였으므로 master.000001, master-bin.000002 형태의 바이너리 파일이 생성될 것이다.
 
 `server-id` 는 Replication Group에서 식별하기 위한 서버의 고유 ID 값이다. master, client 각각 다르게 해주어야 한다.
-1~(2^32)-1내의 숫자로 설정하면 된다.
+1~(2^32)-1내의 숫자로 설정하면 된다. 아래의 명령어로도 변경이 가능하다.
+```mysql
+SET GLOBAL server_id = 2;
+```
 
 아래와 같이 파일에 추가 설정도 가능하다.
 ```dotenv
