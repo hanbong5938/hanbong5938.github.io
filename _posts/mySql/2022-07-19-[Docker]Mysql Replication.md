@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "[Docker] Mysql Replication"
+title : "Docker 사용하여 Mysql Replication"
 category : MySQL
 ---
 
