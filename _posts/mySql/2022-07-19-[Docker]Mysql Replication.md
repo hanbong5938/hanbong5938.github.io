@@ -58,6 +58,7 @@ server-id=2
 master-host             = master
 master-user             = slave_user
 master-password     = test
+default_authentication_plugin=mysql_native_password
 ```
 
 
